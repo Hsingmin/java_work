@@ -1,0 +1,7 @@
+package com.spring;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.bean.Person;
+public class Test {
+
+}

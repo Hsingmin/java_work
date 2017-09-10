@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.SizeAction"/>
+<fullyQualifiedTypeName name="org.apache.catalina.User"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+</qualifiedTypeNameHistroy>

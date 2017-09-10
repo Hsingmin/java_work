@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Hello.jsp&apos; to &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;Struts2_0100_Introduction&apos;&#x0D;&#x0A;- Destination element: &apos;WebContent&apos;&#x0D;&#x0A;- Original element: &apos;Hello.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/Hello.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1448461469713" target="/Struts2_0100_Introduction/WebContent" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,71 @@
+1. Keyword 
+	this : Java保留字，仅限于在构造函数和方法成员中使用；
+			在构造函数中出现，表示对对象本身的引用；
+			在类的方法中出现，表示对调用此方法的对象的引用；
+			在结构的构造上函数中出现，表示对正在构造的结构进行引用；
+			在结构的方法中出现表示对调用此方法的结构进行引用；
+	
+	super : Java关键字，将屏蔽的类成员为可见；
+			访问父类成员 super<父类成员变量/方法>
+			访问父类构造方法 super(参数)
+			子类调用父类的构造方法时，super语句必须是子类构造语句中的第一句
+			
+			对super()的使用：super(param)语句必须是构造函数的第一条语句，
+			构造函数应当是与类名相同且无返回值的函数，如：
+			class Demo{
+				public Demo(param){
+					super(param);
+					...
+				}
+			}
+			
+	package : 源代码声明其所在的路径，.java文件中包含public类，若干package类，package类没有任何访问修饰符，
+				每个类在编译时都会生成一个独立的.class文件，所有的.class均由源文件开头的package语句来确定自己在package中的位置
+2. Framework
+	JMF : 多媒体框架，支持多媒体格式 AU, AVI, MIDI, MPEG, QUICKTIME, WAV；
+						可播放互联网媒体流；
+						可向互联网上传音频和视频流；
+						可在互联网上广播音频和视频数据；
+						
+	net : Java.net包里面的类用于网络编程
+				java.net.URL class 和java.net.URLConnection class 提供对网络通信URL使用的支持
+				
+	MediaLocator : JMF框架中，类似URL的一种媒体信息定位；MediaLocator url = new MediaLocator(new java.lang.String("file directory"));
+														 Player player = null;
+														 player = Manager.createPlayer(url);
+	URL : URL类只能作用于JAVA类库可以识别的模式，如：http: , https: , ftp: , file: , jar: ,etc.
+	
+		在JMF中，一般由一个MediaLocator对象描述一个输入；MediaLocator也可以用来描述一个跨越网路中的媒体流；
+		
+3. Syntax 
+	String : String greeting = "Hello";
+			 String s = greeting.substring(0,3);
+			 字符串比较使用equals()方法；
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

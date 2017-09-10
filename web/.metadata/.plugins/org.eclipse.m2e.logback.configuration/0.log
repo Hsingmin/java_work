@@ -1,0 +1,130 @@
+2015-11-07 23:25:48,859 [Worker-7] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-07 23:26:20,323 [Worker-5] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2015-11-07 23:26:42,798 [main] ERROR org.eclipse.jgit.util.FS - Caught exception in FS.readPipe()
+java.io.IOException: Cannot run program "bash" (in directory "C:\Users\lenovo"): CreateProcess error=2, ?????????
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041) ~[na:1.7.0_45]
+	at java.lang.Runtime.exec(Runtime.java:617) ~[na:1.7.0_45]
+	at org.eclipse.jgit.util.FS.readPipe(FS.java:431) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.jgit.util.FS_Win32.discoverGitPrefix(FS_Win32.java:113) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.jgit.util.FS.gitPrefix(FS.java:517) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:61) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:60) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832) [org.eclipse.jface_3.10.2.v20141021-1035.jar:na]
+	at org.eclipse.jface.window.Window.open(Window.java:808) [org.eclipse.jface_3.10.2.v20141021-1035.jar:na]
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin$1.run(PerspectivePlugin.java:123) [perspective.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151) [org.eclipse.e4.ui.workbench.swt_0.12.100.v20141126-1150.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032) [org.eclipse.e4.ui.workbench.swt_0.12.100.v20141126-1150.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148) [org.eclipse.e4.ui.workbench_1.2.2.v20141212-1259.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135) [org.eclipse.ui.ide.application_1.0.501.v20141111-1238.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.200.v20130910-1609.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+Caused by: java.io.IOException: CreateProcess error=2, ?????????
+	at java.lang.ProcessImpl.create(Native Method) ~[na:1.7.0_45]
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:385) ~[na:1.7.0_45]
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136) ~[na:1.7.0_45]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022) ~[na:1.7.0_45]
+	... 40 common frames omitted
+2015-11-07 23:27:02,912 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.8.0/icefaces-1.8.0.jar
+2015-11-07 23:27:13,732 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.8.0/icefaces-1.8.0.jar
+2015-11-07 23:27:14,752 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/icefaces/icefaces/1.7.2/icefaces-1.7.2.jar
+2015-11-07 23:27:15,760 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+2015-11-07 23:27:16,461 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+2015-11-07 23:27:17,292 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2015-11-07 23:27:19,831 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+2015-11-07 23:27:20,301 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2015-11-07 23:27:23,207 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+2015-11-07 23:27:23,642 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2015-11-07 23:27:25,527 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+2015-11-07 23:27:25,932 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2015-11-07 23:29:26,929 [Worker-5] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|http://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
+2015-11-08 16:09:38,138 [main] ERROR org.eclipse.jgit.util.FS - Caught exception in FS.readPipe()
+java.io.IOException: Cannot run program "bash" (in directory "C:\Users\lenovo"): CreateProcess error=2, ?????????
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1041) ~[na:1.7.0_45]
+	at java.lang.Runtime.exec(Runtime.java:617) ~[na:1.7.0_45]
+	at org.eclipse.jgit.util.FS.readPipe(FS.java:431) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.jgit.util.FS_Win32.discoverGitPrefix(FS_Win32.java:113) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.jgit.util.FS.gitPrefix(FS.java:517) [org.eclipse.jgit_3.7.0.201502260915-r.jar:3.7.0.201502260915-r]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.checkGitPrefix(ConfigurationChecker.java:69) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.check(ConfigurationChecker.java:61) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker.access$0(ConfigurationChecker.java:60) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.egit.ui.internal.ConfigurationChecker$1$1.run(ConfigurationChecker.java:48) [org.eclipse.egit.ui_3.7.0.201502260915-r.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4147) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764) [org.eclipse.swt.win32.win32.x86_3.103.2.v20150203-1351.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151) [org.eclipse.e4.ui.workbench.swt_0.12.100.v20141126-1150.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032) [org.eclipse.e4.ui.workbench.swt_0.12.100.v20141126-1150.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148) [org.eclipse.e4.ui.workbench_1.2.2.v20141212-1259.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20140210-1835.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150) [org.eclipse.ui.workbench_3.106.2.v20150204-1030.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135) [org.eclipse.ui.ide.application_1.0.501.v20141111-1238.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.200.v20130910-1609.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[na:1.7.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_45]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465) [org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar:na]
+Caused by: java.io.IOException: CreateProcess error=2, ?????????
+	at java.lang.ProcessImpl.create(Native Method) ~[na:1.7.0_45]
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:385) ~[na:1.7.0_45]
+	at java.lang.ProcessImpl.start(ProcessImpl.java:136) ~[na:1.7.0_45]
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1022) ~[na:1.7.0_45]
+	... 33 common frames omitted
+2015-11-08 16:09:59,815 [Worker-0] INFO  o.e.m.c.i.i.nexus.NexusIndexManager - Updating index for repository: central|http://repo.maven.apache.org/maven2
+2015-11-08 16:10:35,155 [Worker-0] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to update index for central|http://repo.maven.apache.org/maven2
+org.eclipse.core.runtime.OperationCanceledException: null
+	at org.eclipse.m2e.core.internal.index.nexus.AetherClientResourceFetcher.retrieve(AetherClientResourceFetcher.java:90) ~[org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.apache.maven.index.updater.AbstractResourceFetcher.retrieve(AbstractResourceFetcher.java:35) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$LocalCacheIndexAdaptor.setIndexFile(DefaultIndexUpdater.java:700) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:829) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1238) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1193) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager$1.run(NexusIndexManager.java:703) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.m2e.core.internal.index.nexus.IndexUpdaterJob.run(IndexUpdaterJob.java:72) [org.eclipse.m2e.core_1.5.0.me201510140435.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.6.1.v20141014-1248.jar:na]
